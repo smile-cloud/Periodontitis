@@ -1,0 +1,2621 @@
+{
+    "name": "COVID-19 CT scans",
+    "description": "This dataset contains 20 CT scans of patients diagnosed with COVID-19 as well as segmentations of lungs and infections made by experts.",
+    "reference": "https://www.kaggle.com/andrewmvd/covid19-ct-scans",
+    "licence": "Coronacases (CC BY NC 3.0)\n Radiopedia (CC BY NC SA 3.0) \n Annotations (CC BY 4.0)",
+    "modality": {
+        "0": "CT"
+    },
+    "labels": {
+        "0": "background",
+        "1": "U",
+        "2": "L"
+    },
+    "training": {
+        "18716": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18716.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18716.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4521"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18755": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18755.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18755.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4059"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18756": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18756.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18756.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4061"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18757": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18757.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18757.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3929"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18758": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18758.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18758.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "6124"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18759": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18759.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18759.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3778"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18814": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18814.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18814.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3953"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18924": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18924.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18924.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4153"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18926": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18926.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18926.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4406"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "18927": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\18927.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\18927.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "5359"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19009": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19009.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19009.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    576,
+                    768,
+                    768
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "2945"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -384.0,
+                -384.0,
+                -72.5
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.9000000357627869,
+                0.9000000357627869,
+                0.6750000268220901
+            ]
+        },
+        "19196": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19196.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19196.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "5000"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19197": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19197.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19197.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4314"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19200": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19200.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19200.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    576,
+                    768,
+                    768
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3161"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -384.0,
+                -384.0,
+                -72.5
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.9000000357627869,
+                0.9000000357627869,
+                0.6750000268220901
+            ]
+        },
+        "19202": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19202.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19202.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3980"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19203": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19203.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19203.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    576,
+                    768,
+                    768
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "2893"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -384.0,
+                -384.0,
+                -72.5
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.9000000357627869,
+                0.9000000357627869,
+                0.6750000268220901
+            ]
+        },
+        "19287": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19287.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19287.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4119"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19288": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19288.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19288.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4178"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19305": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19305.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19305.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3988"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19306": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19306.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19306.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4472"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19307": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19307.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19307.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4066"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19325": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19325.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19325.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4363"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.2994423806667328
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.63046657491941
+            ]
+        },
+        "19336": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19336.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19336.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4283"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19338": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19338.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19338.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3805"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19339": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19339.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19339.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4120"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19341": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19341.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19341.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "7627"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19342": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19342.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19342.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4496"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19372": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19372.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19372.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4449"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19408": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19408.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19408.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "6997"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19409": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19409.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19409.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3847"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.2994423806667328
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.63046657491941
+            ]
+        },
+        "19410": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19410.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19410.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "10981"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19411": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19411.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19411.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    540,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3896"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.29944342374801636
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.631638471968472
+            ]
+        },
+        "19433": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19433.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19433.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4246"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19435": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19435.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19435.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "15383"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.3005586564540863
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316428014542907
+            ]
+        },
+        "19436": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19436.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19436.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4105"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19437": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19437.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19437.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3964"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19445": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19445.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19445.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4282"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19446": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19446.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19446.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4254"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19495": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19495.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19495.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    576,
+                    768,
+                    768
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3789"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -384.0,
+                -384.0,
+                -72.5
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.9000000357627869,
+                0.9000000357627869,
+                0.6750000268220901
+            ]
+        },
+        "19496": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19496.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19496.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    540,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3686"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -81.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6328125251457095
+            ]
+        },
+        "19498": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19498.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19498.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    576,
+                    768,
+                    768
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "2751"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -384.0,
+                -384.0,
+                -72.5
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.9000000357627869,
+                0.9000000357627869,
+                0.6750000268220901
+            ]
+        },
+        "19499": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19499.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19499.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4341"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.2994423806667328
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.63046657491941
+            ]
+        },
+        "19500": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19500.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19500.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "7982"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19504": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19504.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19504.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4292"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19635": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19635.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19635.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3733"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19636": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19636.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19636.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4535"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19638": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19638.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19638.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4151"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19639": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19639.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19639.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4153"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19640": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19640.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19640.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3777"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19641": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19641.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19641.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4100"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19653": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19653.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19653.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3601"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19654": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19654.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19654.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "5955"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19655": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19655.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19655.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    539,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4018"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.8499984741211
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6316406500991434
+            ]
+        },
+        "19656": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19656.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19656.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "6129"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19658": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19658.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19658.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "15383"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19674": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19674.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19674.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "6694"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19675": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19675.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19675.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4462"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19677": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19677.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19677.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "4236"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19678": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19678.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19678.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3935"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "19679": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\19679.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\19679.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    538,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "3713"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304687750525773
+            ]
+        },
+        "20414": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\20414.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\20414.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    576,
+                    768,
+                    768
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "14644"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ],
+            "origin": [
+                -384.0,
+                -384.0,
+                -72.5
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.9000000357627869,
+                0.9000000357627869,
+                0.6750000268220901
+            ]
+        },
+        "20951": {
+            "image": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\image\\20951.nii.gz",
+            "label": "F:\\huaxi\\yazhouyan+cbct\\yahegu_Dataset\\dataset\\label\\20951.nii.gz",
+            "dim": 3,
+            "shape": [
+                [
+                    537,
+                    610,
+                    610
+                ]
+            ],
+            "minmax_vals": [
+                "-1000",
+                "8465"
+            ],
+            "spacing": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.3005596995353699
+            ],
+            "origin": [
+                -91.5,
+                -91.5,
+                -80.69999694824219
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "spacing_resample": [
+                0.7148437784053385,
+                0.7148437784053385,
+                0.6304709322284907
+            ]
+        }
+    },
+    "test": {}
+}
